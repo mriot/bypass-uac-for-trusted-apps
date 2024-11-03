@@ -11,7 +11,7 @@ You'll need administrator access and PowerShell to run the script.
 
 ## How it works
 
-The script creates a scheduled task that runs the application with elevated privileges. A desktop shortcut is created that runs the task, which in turn runs the application with elevated privileges.
+The script creates a scheduled task that runs the application with elevated privileges. A desktop shortcut is created that runs this task, which in turn runs the application.
 
 All tasks are created in the `NoUAC` folder in the `Task Scheduler`.
 
